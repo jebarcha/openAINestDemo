@@ -21,7 +21,6 @@ import {
   TranslateDto,
 } from './dtos';
 import OpenAI from 'openai';
-import { ImageGenerateParams } from 'openai/resources';
 
 @Injectable()
 export class GptService {
